@@ -1,38 +1,261 @@
-.App {
+.base{
+  float: left;
+  width: 80%;
+}
+
+.home{
+  float: left;
+  width: 100%;
+  height: 750px;
+  position: relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mypic{
+  position: relative;
+  width: 50%;
+  margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.small-line{
+  height: 100px;
+  width: 50%;
+  margin: 0 0 20px 50%;
+  float: left;
+}
+
+.animated-line {
+  height: 20px;
+  background-color: black;
+  animation: pulseWidth 3s infinite ease-in-out;
+  width: 1.5px;
+  left: 50px;
+}
+
+@keyframes pulseWidth {
+  0%, 100% {
+    height: 0px;
+  }
+  50% {
+    height: 100px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.line{
+  float: left;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(to right, transparent, #007bff 50%, #007bff 50%, transparent);
+}
+
+.about-me{
+  width: 100%;
+  height: 500px;
+  float: right;
+  position: relative;
+  text-align: center;
+}
+
+.topic{
+  width: 100%;
+  height: 150px;
+  float: right;
+}
+
+.topic h1{
+  float: right;
+  margin: 50px 30px 0 0;
+  font-size: 35px;
+}
+
+.about-me h3{
+  margin: 25px 0% 0 0;
+  color: rgb(38, 38, 38);
+}
+
+.services{
+  width: 100%;
+  height: 550px;
+  float: left;
+}
+
+.service-class{
+  float: right;
+  width: 29%;
+  height: 270px;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  border: 1.5px solid #65b0ff;
+}
+
+.service-logo{
+  width: 75px;
+  padding: 5px;
+  background-color: #007bff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.service-class h4{
+  color: rgb(39, 39, 39);
+}
+
+.service-class p{
+  color: rgb(62, 62, 62);
+}
+
+.resume{
+  width: 100%;
+  height: 1050px;
+  float: right;
+}
+
+.resume p{
+  float: right;
+  margin: 30px 30px 50px 30px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+  direction: rtl;
+}
+
+.calculator{
+  width: 450px;
+  height: 530px;
+  background-color: #007bff;
+  border: 4px black solid;
+  border-radius: 20px;
+  float: right;
+  margin: 50px 30% 0 0;
+}
+
+.calculator .result{
+  background-color: white;
+  width: 86%;
+  height: 60px;
+  margin: 30px 7% 40px 7%;
+  float: right;
+  border-radius: 20px;
+  border: 2px #0053ab solid;
+}
+
+.result h4{
+  margin-left: 10px;
+}
+
+.calculator button{
+  float: right;
+  margin: 0 45px 17px 0;
+  width: 20%;
+  height: 60px;
+  border-radius: 20px;
+  border: 2px black solid;
+  background-color: rgb(230, 230, 230);
+  font-size: x-large;
+}
+
+.calculator button:hover{
+  background-color: rgb(198, 198, 198);
+  border: 2.5px black solid;
+}
+
+.resume h2{
+  float: right;
+  margin: 60px 23% 0 0;
+  direction: rtl;
+}
+
+.connection{
+  width: 100%;
+  height: 500px;
+  float: right;
+}
+
+.connection-class{
+  position: relative;
+  float: right;
+  text-align: center;
+  width: 30%;
+  height: 250px;
+}
+
+.connection-logo{
+  width: 95px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.connection-class h4{
+  color: rgb(39, 39, 39);
+}
+
+.connection-class p{
+  color: rgb(62, 62, 62);
+}
+
+.bar{
+  width: 16%;
+  float: right;
+  position: fixed;
+  background-color: #007bff;
+  height: 650px;
+  margin: 25px 2% 0 0;
+  border-radius: 30px;
+  right: 0;
+}
+
+.info{
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+
+.info h4{
+  padding: 10px;
+  background-color: rgba(164, 164, 164, 0.573);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.list{
+  position: relative;
+  width: 100%;
+  height: 330px;
+  text-align: center;
+  margin-top: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list p{
+  margin-top: 25px;
+  color: white;
+  padding: 5px;
+  width: 80%;
+  margin-left: 8%;
+}
+
+.list p:hover{
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+}
+
+.bar-line{
+  float: left;
+  width: 80%;
+  height: 2px;
+  margin-left: 10%;
+  background: linear-gradient(to right, transparent, #ffffff 50%, #ffffff 50%, transparent);
+}
+
+.q-connection{
+  width: 100%;
+  height: 120px;
+}
+
+.bar-logo{
+  float: right;
+  width: 20%;
+  height: 40px;
+  margin: 20px 10% 0 0;
 }
