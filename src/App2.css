@@ -1,0 +1,17 @@
+@media (max-width: 900px) {
+.home{ height: 550px;}
+.services{ height: 600px;}
+.service-class{ height: 350px;}
+.calculator{ display: none;}
+.resume h2{ display: none;}
+.resume h3{
+    display: inline;
+    color: red;
+    float: right;
+    font-size: 50px;
+    margin-top: 80px;
+}
+.resume{ height: 750px;}
+.connection{ height: 700px;}
+.connection-class{ width: 100%;}
+}

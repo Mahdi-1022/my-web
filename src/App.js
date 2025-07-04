@@ -1,5 +1,6 @@
 import myimage from './logo.svg'
 import './App.css';
+import './App2.css';
 import computer from './computer.png'
 import intelligence from './intelligence.jpg'
 import worker from './worker.jpg'
@@ -113,6 +114,7 @@ function App() {
             <button onClick={() => cal("/")}>/</button>
             <button onClick={() => setx(eval(x))}>submit</button>
           </div>
+          <h3>لطفا برای دیدن نمونه کار صفحه را به حالت تمام دسکتاپ در بیاورید</h3>
           <h2>این یک ماشین حساب ساده است که چهار عمل اصلی را انجام میدهد</h2>
         </div>
         <div className='line'></div>
