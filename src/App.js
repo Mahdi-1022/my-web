@@ -98,6 +98,7 @@ function App() {
             <div className='result'>
               <h4>{x}</h4>
             </div>
+            <button onClick={() => setx("")} id='reset'>reset</button>
             <button onClick={() => cal("1")}>1</button>
             <button onClick={() => cal("2")}>2</button>
             <button onClick={() => cal("3")}>3</button>
