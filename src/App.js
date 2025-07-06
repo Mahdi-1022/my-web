@@ -9,7 +9,7 @@ import telegram from './telegram.jpg'
 import telegram2 from './telegram2.jpg'
 import email from './email.jpg'
 import email2 from './email2.jpg'
-import { useState } from 'react';
+import { useState , useEffect } from 'react';
 
 function App() {
 
